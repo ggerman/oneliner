@@ -159,5 +159,5 @@ Use them wisely, especially in production-like setups.
 ## 💬 Get in Touch
 Want to build things the clean way? Architecture, testing, scalable apps?
 
-## 🧠 Let’s talk
+## [🧠 Let’s talk](https://rubystacknews.com/get-in-touch/)
 
