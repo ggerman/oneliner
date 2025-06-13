@@ -1,0 +1,78 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.3.5)
+    dry-auto_inject (0.8.0)
+      dry-container (>= 0.3.4)
+    dry-configurable (0.7.0)
+      concurrent-ruby (~> 1.0)
+    dry-container (0.7.2)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 0.1, >= 0.1.3)
+    dry-core (0.9.1)
+      concurrent-ruby (~> 1.0)
+      zeitwerk (~> 2.6)
+    dry-equalizer (0.3.0)
+    dry-inflector (0.3.0)
+    dry-logic (1.3.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.9, >= 0.9)
+      zeitwerk (~> 2.6)
+    dry-pipeline (0.0.2)
+    dry-struct (1.5.2)
+      dry-core (~> 0.9, >= 0.9)
+      dry-types (~> 1.6)
+      ice_nine (~> 0.11)
+      zeitwerk (~> 2.6)
+    dry-system (0.12.0)
+      concurrent-ruby (~> 1.0)
+      dry-auto_inject (>= 0.4.0)
+      dry-configurable (~> 0.7, >= 0.7.0)
+      dry-container (~> 0.7)
+      dry-core (>= 0.3.1)
+      dry-equalizer (~> 0.2)
+      dry-inflector (~> 0.1, >= 0.1.2)
+      dry-struct (~> 1.0)
+    dry-types (1.6.1)
+      concurrent-ruby (~> 1.0)
+      dry-container (~> 0.3)
+      dry-core (~> 0.9, >= 0.9)
+      dry-inflector (~> 0.1, >= 0.1.2)
+      dry-logic (~> 1.3, >= 1.3)
+      zeitwerk (~> 2.6)
+    ice_nine (0.11.2)
+    inflecto (0.0.2)
+    kleisli (0.2.7)
+    rack (3.1.16)
+    roda (2.29.0)
+      rack
+    rodakase (0.0.1)
+      dry-auto_inject (~> 0.1)
+      dry-configurable (~> 0.1)
+      dry-container (~> 0.2)
+      dry-equalizer (~> 0.2)
+      inflecto (~> 0)
+      roda (~> 2.7)
+      tilt (~> 2.0)
+      transflow (~> 0.3)
+    tilt (2.6.0)
+    transflow (0.3.0)
+      dry-pipeline
+      kleisli
+      wisper
+    wisper (3.0.0)
+    zeitwerk (2.7.3)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  dry-auto_inject (= 0.8.0)
+  dry-configurable (= 0.7.0)
+  dry-container (= 0.7.2)
+  dry-system (= 0.12.0)
+  rodakase (= 0.0.1)
+
+BUNDLED WITH
+   2.6.9
